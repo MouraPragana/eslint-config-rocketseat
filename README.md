@@ -23,3 +23,10 @@ npm i -D eslint @rocketseat/eslint-config
 ```
 
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
+
+3. Create a script on `package.json`
+```
+"scripts": {
+    "lint": "eslint src --ext .ts,.tsx --fix"
+  },
+```
